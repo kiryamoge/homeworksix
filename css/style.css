@@ -1,0 +1,112 @@
+body{
+    background: #1B1E22;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1133px;
+    margin: auto;
+}
+.actual__title{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 500; 
+}
+.actual__card{
+    width: 361px;
+    background-color: #23282F;
+    position: relative;
+}
+.actual__cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 24.07px;
+    margin-top: 45.13px;
+}
+.actual__img{
+    position: relative;
+}
+.actual__img img{
+    border-radius: 4px 4px 0px 0px;
+    max-width: 100%;
+}
+.actual__price-date{
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+}
+.actual__price{
+    background: #FFB800;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 5.5px 0;
+    width: 78.346px;
+}
+.actual__price-date span{
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 3.5px;
+}
+.actual__date{
+    border-radius: 0px 6px 6px 0px;
+    background:  rgba(30, 29, 29, 0.75) ;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5.5px 0;
+    width: 170.754px;
+}
+.actual__descr{
+    padding: 16.03px 21px 24px;
+}
+.actual__descr h3{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 16.03px;
+}
+.actual__descr p{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 55px; 
+}
+.actual__descr a{
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.5;
+    position: absolute;
+    left: 20.09px;
+    bottom: 14.04px;
+}
+.flex-button{
+    display: flex;
+   justify-content: center;
+}
+.button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px #FFB800 solid;
+    border-radius: 3px 3px 3px 3px;
+    padding: 16.5px 37.5px;
+    margin-top: 49.14px;
+    margin-bottom: 72px;
+}
+.button:hover{
+    background-color: #FFB800;
+    color: black;
+}
